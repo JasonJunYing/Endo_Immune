@@ -9,7 +9,7 @@ To investigate the crosstalk between endothelial and immune cells and its role i
 (5) Clustering and annotation  
 (6) Pathway analysis (GOBP)  
 (7) [Cell-cell communication analysis](./Cellchat_final.ipynb)  
-The codes used to generate the figures could be found in [scRNAseq_Plottings.ipynb](./ scRNAseq_Plottings.ipynb). The codes for Seurat object conversion (from python to R) were in [Seurat object conversion](./Seurat_Conversion.ipynb).
+The codes used to generate the figures could be found in [scRNAseq_Plottings.ipynb](./ scRNAseq_Plottings.ipynb). The codes for Seurat object conversion (from python to R) were in [Seurat object conversion.ipynb](./Seurat_Conversion.ipynb).
 
 To further confirm the results, we performed RNA-seq analysis on the CD31+ arterial endothelial cells obtained from mice fed with 9 weeks of high-fat diet and 3 extra weeks of Rux/vehicle. Data analysis procedures included:  
 (1) [Normalization and DE analysis](./RNAseq_edgeR.R)  

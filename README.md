@@ -14,3 +14,5 @@ The codes used to generate the figures could be found in [scRNAseq_Plottings.ipy
 To further confirm the results, we performed RNA-seq analysis on the CD31+ arterial endothelial cells obtained from mice fed with 9 weeks of high-fat diet and 3 extra weeks of Rux/vehicle. Data analysis procedures included:  
 (1) [Normalization and DE analysis](./RNAseq_edgeR.R)  
 (2) [Visualization](./RNAseq_Plottings.R)  
+
+We also performed serum cytokine assays on mice fed with 9 weeks of high-fat diet and 3 extra weeks of Rux/vehicle. The data was analysed using FCAP 3.0 software, and the codes for visualization could be found in [Cytokine_Boxplot.R](./Cytokine_Boxplot.R).

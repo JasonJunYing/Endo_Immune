@@ -15,4 +15,10 @@ To further confirm the results, we performed RNA-seq analysis on the CD31+ arter
 (1) [Normalization and DE analysis](./RNAseq_edgeR.R)  
 (2) [Visualization](./RNAseq_Plottings.R)  
 
-We also performed serum cytokine assays on mice fed with 9 weeks of high-fat diet and 3 extra weeks of Rux/vehicle. The data was analysed using FCAP 3.0 software, and the codes for visualization could be found in [Cytokine_Boxplot.R](./Cytokine_Boxplot.R).
+We also performed serum cytokine assays on mice fed with 9 weeks of high-fat diet and 3 extra weeks of Rux/vehicle. The data was analysed using FCAP 3.0 software:  
+(1) Design: All 10 standards included  
+(2) Instrument Settings: SSC-H as scatter param, R660-A(FSC-A) as clustering param, Y585-A as reporter param.  
+(3) Debris Filtering: Manual gating on SSC-A / FSC-H  
+(4) Manual clustering: Not applied (All Automatic)  
+(5) Standard settings: 0; 20-5000 (Automatic calculation)  
+The codes for visualization could be found in [Cytokine_Boxplot.R](./Cytokine_Boxplot.R).

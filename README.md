@@ -1,7 +1,7 @@
 # Endo_Immune
 ## Codes for "Exploring the pathogenesis of atherosclerosis from a perspective of endothelial-immune interaction mechanisms"
 
-To investigate the crosstalk between endothelial and immune cells and its role in atherosclerosis, we obtained scRNA-seq data of vascular cells from the adventitial and medial/endothelial layers of wild-type and Apoe-/- adult mice [(GSE140811)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE140811). Raw sequences was downloaded using sratools and aligned to the reference genome GRCm38 using Cellranger. The analysis procedures were provided as [scRNA-seq analysis.ipynb](./scRNAseq_analysis.ipynb):  
+To investigate the crosstalk between endothelial and immune cells and its role in atherosclerosis, we obtained scRNA-seq data of vascular cells from the adventitial and medial/endothelial layers of wild-type and Apoe-/- adult mice [(GSE140811)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE140811). Raw sequences was downloaded using sratools and aligned to the reference genome GRCm38 using Cellranger v.7.1.0. The analysis procedures were provided as [scRNA-seq analysis.ipynb](./scRNAseq_analysis.ipynb):  
 (1) Preprocessing and quality control  
 (2) Imputation(MAGIC)  
 (3) Normalization and scaling  
